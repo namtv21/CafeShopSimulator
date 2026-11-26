@@ -1,0 +1,99 @@
+{
+    "upgrades": [
+        {
+            "id": "tip-jar",
+            "name": "Hũ tiền tip",
+            "description": "+2 xu mỗi khách",
+            "price": 80,
+            "tipBonus": 2,
+            "extraSeconds": 0,
+            "opensBackroom": false,
+            "extraTables": 0,
+            "requiresUpgradeId": ""
+        },
+        {
+            "id": "lighting",
+            "name": "Đèn quầy",
+            "description": "Ca dài thêm 15 giây",
+            "price": 120,
+            "tipBonus": 0,
+            "extraSeconds": 15,
+            "opensBackroom": false,
+            "extraTables": 0,
+            "requiresUpgradeId": ""
+        },
+        {
+            "id": "table-2",
+            "name": "Bàn thứ hai",
+            "description": "Thêm một khách cùng lúc",
+            "price": 80,
+            "tipBonus": 0,
+            "extraSeconds": 0,
+            "opensBackroom": false,
+            "extraTables": 1,
+            "requiresUpgradeId": ""
+        },
+        {
+            "id": "table-3",
+            "name": "Bàn thứ ba",
+            "description": "Thêm một khách cùng lúc",
+            "price": 160,
+            "tipBonus": 0,
+            "extraSeconds": 0,
+            "opensBackroom": false,
+            "extraTables": 1,
+            "requiresUpgradeId": "table-2"
+        }
+    ],
+    "hostName": "Minh · Chủ quán",
+    "dialogue": [
+        "Hôm nay quán thơm mùi cà phê thật đấy.",
+        "Mình muốn có thêm một góc đọc sách ở đây.",
+        "Cảm ơn bạn đã cùng mình chăm sóc quán."
+    ],
+    "questServed": 3,
+    "questReward": 30,
+    "startingTables": 1,
+    "staff": [
+        {
+            "id": "employee-1",
+            "name": "An",
+            "description": "Tự pha và mang đồ tới bàn. Phí thuê một lần.",
+            "hirePrice": 180,
+            "brewSeconds": 8.0,
+            "deliverySeconds": 3.0
+        },
+        {
+            "id": "employee-2",
+            "name": "Mai",
+            "description": "Tự pha và mang đồ tới bàn. Phí thuê một lần.",
+            "hirePrice": 180,
+            "brewSeconds": 8.0,
+            "deliverySeconds": 3.0
+        },
+        {
+            "id": "employee-3",
+            "name": "Hà",
+            "description": "Tự pha và mang đồ tới bàn. Phí thuê một lần.",
+            "hirePrice": 180,
+            "brewSeconds": 8.0,
+            "deliverySeconds": 3.0
+        },
+        {
+            "id": "employee-4",
+            "name": "Linh",
+            "description": "Tự pha và mang đồ tới bàn. Phí thuê một lần.",
+            "hirePrice": 180,
+            "brewSeconds": 8.0,
+            "deliverySeconds": 3.0
+        },
+        {
+            "id": "employee-5",
+            "name": "Vy",
+            "description": "Tự pha và mang đồ tới bàn. Phí thuê một lần.",
+            "hirePrice": 180,
+            "brewSeconds": 8.0,
+            "deliverySeconds": 3.0
+        }
+    ]
+}

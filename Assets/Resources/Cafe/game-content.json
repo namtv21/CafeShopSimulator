@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "cupCapacity": 5,
+  "orders": { "slotCount": 3, "arrivalStaggerSeconds": 1.5, "firstArrivalSeconds": 2, "nextArrivalSeconds": 3, "patienceSeconds": 25, "walkInSeconds": 3 },
+  "ingredients": [
+    { "id": "espresso", "displayName": "Espresso", "visualId": "espresso", "packPrice": 0, "alwaysAvailable": true, "freeOnFirstDay": true },
+    { "id": "milk", "displayName": "Sữa", "visualId": "milk", "packPrice": 20, "alwaysAvailable": false, "freeOnFirstDay": true },
+    { "id": "foam", "displayName": "Bọt sữa", "visualId": "foam", "packPrice": 15, "alwaysAvailable": false, "freeOnFirstDay": false },
+    { "id": "chocolate", "displayName": "Chocolate", "visualId": "chocolate", "packPrice": 30, "alwaysAvailable": false, "freeOnFirstDay": false },
+    { "id": "ice", "displayName": "Đá", "visualId": "ice", "packPrice": 25, "alwaysAvailable": false, "freeOnFirstDay": false },
+    { "id": "cookie", "displayName": "Bánh quy", "visualId": "cookie", "packPrice": 18, "alwaysAvailable": false, "freeOnFirstDay": false }
+  ],
+  "recipes": [
+    { "id": "espresso", "displayName": "Espresso", "visualId": "espresso", "ingredientIds": ["espresso"], "sellPrice": 10, "unlockDay": 1 },
+    { "id": "latte", "displayName": "Latte", "visualId": "latte", "ingredientIds": ["espresso", "milk"], "sellPrice": 18, "unlockDay": 1 },
+    { "id": "mocha", "displayName": "Mocha", "visualId": "mocha", "ingredientIds": ["espresso", "chocolate", "milk"], "sellPrice": 25, "unlockDay": 2 },
+    { "id": "cappuccino", "displayName": "Cappuccino", "visualId": "cappuccino", "ingredientIds": ["espresso", "milk", "foam"], "sellPrice": 22, "unlockDay": 3 },
+    { "id": "iced-latte", "displayName": "Iced Latte", "visualId": "iced-latte", "ingredientIds": ["ice", "espresso", "milk"], "sellPrice": 23, "unlockDay": 3 },
+    { "id": "butter-cookie", "displayName": "Bánh quy bơ", "visualId": "cookie", "ingredientIds": ["cookie"], "sellPrice": 14, "unlockDay": 1 }
+  ]
+}
